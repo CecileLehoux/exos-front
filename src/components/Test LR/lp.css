@@ -1,0 +1,56 @@
+.container {
+  padding-top: 6rem;
+  background: url(../../assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 6rem;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 4rem;
+  width: 300px;
+}
+
+.alert {
+  color: red;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+.success {
+  background-color: #fff;
+  border-radius: 1rem;
+  color: green;
+  padding: 1rem;
+}
+
+footer {
+  background-color: black;
+  height: auto;
+  padding: 2rem;
+}
+
+.footer__subtitle {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: auto;
+  }
+  .logo {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .logo {
+    width: 180px;
+  }
+}
